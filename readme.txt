@@ -1,13 +1,15 @@
 === WP Create Multiple Posts & Pages ===
+Tags: create-post, edit-post, multiple-post, multiple-page, create-page
 Contributors: sajjad67
-Tags: create-post,edit-post,multiple-post,multiple-page,create-page
-Requires at least: 5.6
+Author: Sajjad Hossain Sagor
 Tested up to: 6.7
+Requires at least: 5.6
 Stable tag: 2.0.1
-License: GPLv2
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Requires PHP: 8.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Easily Create Multiple Wordpress Posts & Pages At Once With a Single Click.
+Easily Create Multiple WordPress Posts & Pages At Once With a Single Click.
 
 == Description ==
 This plugin adds feature to create multiple posts / pages at once with empty content and given title or empty title.
@@ -34,8 +36,8 @@ Go to Plugins > Add New.
 4. The resulting installation screen will list the installation as successful or note any problems during the install.
 If successful, click Activate Plugin to activate it, or Return to Plugin Installer for further actions.
 
-To add a WordPress Plugin from github repo / plugin zip file :
-1. Go to wordpress plugin page
+To add a WordPress Plugin from GitHub repo / plugin zip file :
+1. Go to WordPress plugin page
 2. Click Add New & Upload Plugin
 3. Drag / Click upload the plugin zip file
 4. The resulting installation screen will list the installation as successful or note any problems during the install.
