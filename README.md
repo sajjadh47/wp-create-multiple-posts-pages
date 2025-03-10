@@ -65,6 +65,7 @@ Insert you posts / pages title in each line and set type - status - category and
 ![After Posts Created Screen.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-2.png)
 
 ## Changelog
+
 ### 2.0.1
 - Minor changes in codebase only.
 
