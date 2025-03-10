@@ -66,36 +66,30 @@ Insert you posts / pages title in each line and set type - status - category and
 
 ## Changelog
 ### 2.0.1
-
 - Minor changes in codebase only.
 
 ### 1.0.7
-
 - Updated code for latest version wp support
 
 ### 1.0.6
-
 - Updated code for latest version wp support
 
 ### 1.0.5
-
 - Updated code for latest version wp support
+
 ### 1.0.4
-
 - Updated code for latest version wp support
+
 ### 1.0.3
-
 - Updated code for latest version wp support
-### 1.0.2
 
+### 1.0.2
 - Added Custom Post Type Support
-## Changelog
 
 ### 1.0.1
-
 - Added support for latest wp version 5.3
-### 1.0.0
 
+### 1.0.0
 - Initial release.
 
 ## Upgrade Notice
