@@ -1,9 +1,9 @@
 === WP Create Multiple Posts & Pages ===
 Contributors: sajjad67
-Tags: post,create-post,edit-post,multiple-post,page,edit-page,multiple-page,create-page
+Tags: create-post,edit-post,multiple-post,multiple-page,create-page
 Requires at least: 5.6
-Tested up to: 6.6
-Stable tag: 1.0.7
+Tested up to: 6.7
+Stable tag: 2.0.1
 License: GPLv2
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -20,7 +20,7 @@ This plugin adds feature to create multiple posts / pages at once with empty con
 - Set post category (for posts only)
 - Custom Post Types (CPT) Supported
 
-**Interested in contributing to WP Edit Username?**
+**Interested in contributing to WP Create Multiple Posts & Pages?**
 Contact me sagorh672(at)gmail.com
 
 == Installation ==
@@ -51,6 +51,10 @@ Insert you posts / pages title in each line and set type - status - category and
 1. Posts Creation Panel.
 2. After Posts Created Screen.
 == Changelog ==
+= 2.0.1 =
+- Minor changes in codebase only.
+= 2.0.0 =
+- Updated code for latest version wp support. Added translation support for all text.
 = 1.0.7 =
 - Updated code for latest version wp support
 = 1.0.6 =
