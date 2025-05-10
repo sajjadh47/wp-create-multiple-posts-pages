@@ -1,4 +1,4 @@
-phpcs -ps . --standard=WordPress --extensions=php<?php
+<?php
 /**
  * Silence is golden
  *
