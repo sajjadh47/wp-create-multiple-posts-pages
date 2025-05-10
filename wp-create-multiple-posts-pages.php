@@ -23,7 +23,7 @@
  */
 
 // If this file is called directly, abort.
-if ( ! defined( 'WPINC' ) ) {
+if ( ! defined( 'ABSPATH' ) ) {
 	die;
 }
 
@@ -47,13 +47,13 @@ define( 'WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_BASENAME', plugin_basename( __FILE__
  *
  * @since    2.0.0
  */
-function wp_create_multi_posts_pages_on_activate() {
+function on_activate_wp_create_multi_posts_pages() {
 	require_once WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_PATH . 'includes/class-wp-create-multi-posts-pages-activator.php';
 
 	Wp_Create_Multi_Posts_Pages_Activator::on_activate();
 }
 
-register_activation_hook( __FILE__, 'wp_create_multi_posts_pages_on_activate' );
+register_activation_hook( __FILE__, 'on_activate_wp_create_multi_posts_pages' );
 
 /**
  * The code that runs during plugin deactivation.
@@ -61,13 +61,13 @@ register_activation_hook( __FILE__, 'wp_create_multi_posts_pages_on_activate' );
  *
  * @since    2.0.0
  */
-function wp_create_multi_posts_pages_on_deactivate() {
+function on_deactivate_wp_create_multi_posts_pages() {
 	require_once WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_PATH . 'includes/class-wp-create-multi-posts-pages-deactivator.php';
 
 	Wp_Create_Multi_Posts_Pages_Deactivator::on_deactivate();
 }
 
-register_deactivation_hook( __FILE__, 'wp_create_multi_posts_pages_on_deactivate' );
+register_deactivation_hook( __FILE__, 'on_deactivate_wp_create_multi_posts_pages' );
 
 /**
  * The core plugin class that is used to define internationalization,

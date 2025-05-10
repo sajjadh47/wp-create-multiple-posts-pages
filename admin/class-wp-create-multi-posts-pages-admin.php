@@ -4,7 +4,7 @@
  * is used to load the plugin's admin-specific functionality.
  *
  * @package       Wp_Create_Multi_Posts_Pages
- * @subpackage    Wp_Create_Multi_Posts_Pages/includes
+ * @subpackage    Wp_Create_Multi_Posts_Pages/admin
  * @author        Sajjad Hossain Sagor <sagorh672@gmail.com>
  */
 

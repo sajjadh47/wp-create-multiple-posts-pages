@@ -4,7 +4,7 @@
  *
  * @since         2.0.0
  * @package       Wp_Create_Multi_Posts_Pages
- * @subpackage    Wp_Create_Multi_Posts_Pages/admin
+ * @subpackage    Wp_Create_Multi_Posts_Pages/admin/views
  * @author        Sajjad Hossain Sagor <sagorh672@gmail.com>
  */
 
