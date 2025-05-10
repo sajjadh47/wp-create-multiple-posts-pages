@@ -20,8 +20,8 @@ class Wp_Create_Multi_Posts_Pages_I18n {
 	/**
 	 * Load the plugin text domain for translation.
 	 *
-	 * @since    2.0.0
-	 * @access   public
+	 * @since     2.0.0
+	 * @access    public
 	 */
 	public function load_plugin_textdomain() {
 		load_plugin_textdomain(
