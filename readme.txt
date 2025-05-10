@@ -15,12 +15,12 @@ Easily Create Multiple WordPress Posts & Pages At Once With a Single Click.
 This plugin adds feature to create multiple posts / pages at once with empty content and given title or empty title.
 
 = Features: =
-- Add multiple posts
-- Add multiple pages
-- Set post status
-- Set post author
-- Set post category (for posts only)
-- Custom Post Types (CPT) Supported
+- Bulk Add Posts: Create multiple posts at once.
+- Bulk Add Pages: Quickly add multiple pages in one go.
+- Set Post Status: Choose the publication status for each post or page.
+- Assign Post Author: Select the author for the new content.
+- Assign Categories: Apply categories to posts effortlessly.
+- Custom Post Types (CPT) Support: Compatible with custom post types.
 
 **Interested in contributing to WP Create Multiple Posts & Pages?**
 Contact me sagorh672(at)gmail.com
@@ -45,14 +45,17 @@ If successful, click Activate Plugin to activate it, or Return to Plugin Install
 
 == Frequently Asked Questions ==
 = How to use this plugin? =
-Just after installing WP Edit Username plugin, Go to user profile and edit user username by clicking Edit button.
+Just after installing WP Create Multiple Posts & Pages plugin, Go to Main Menu -> Multiple Posts.
 
 Insert you posts / pages title in each line and set type - status - category and author. Click to create a blast posts.
 
 == Screenshots ==
 1. Posts Creation Panel.
-2. After Posts Created Screen.
+2. Before Posts Created Screen.
+3. After Posts Created Screen.
 == Changelog ==
+= 2.0.2 =
+- Checked for latest wp version 6.8
 = 2.0.1 =
 - Minor changes in codebase only.
 = 2.0.0 =

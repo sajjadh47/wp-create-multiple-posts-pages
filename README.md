@@ -1,13 +1,8 @@
 # WP Create Multiple Posts & Pages
 
 **Tags:** post, create-post, edit-post, multiple-post, page, edit-page, multiple-page, create-page \
-**Contributors:** sajjad67 \
-**Requires at least:** 5.6 \
 **Tested up to:** 6.7 \
-**Stable tag:** 2.0.1 \
-**Requires PHP:** 8.0 \
-**License:** GPLv2 \
-**License URI:** http://www.gnu.org/licenses/gpl-2.0.html
+**Requires PHP:** 8.0
 
 Easily Create Multiple Wordpress Posts & Pages At Once With a Single Click.
 
@@ -17,14 +12,14 @@ This plugin adds feature to create multiple posts / pages at once with empty con
 
 ### Features:
 
-- Add multiple posts
-- Add multiple pages
-- Set post status
-- Set post author
-- Set post category (for posts only)
-- Custom Post Types (CPT) Supported
+- Bulk Add Posts: Create multiple posts at once.
+- Bulk Add Pages: Quickly add multiple pages in one go.
+- Set Post Status: Choose the publication status for each post or page.
+- Assign Post Author: Select the author for the new content.
+- Assign Categories: Apply categories to posts effortlessly.
+- Custom Post Types (CPT) Support: Compatible with custom post types.
 
-**Interested in contributing to WP Edit Username?**
+**Interested in contributing to WP Create Multiple Posts & Pages?**
 Contact me sagorh672(at)gmail.com
 
 ## Installation
@@ -50,7 +45,7 @@ If successful, click Activate Plugin to activate it, or Return to Plugin Install
 
 ### How to use this plugin?
 
-Just after installing WP Edit Username plugin, Go to user profile and edit user username by clicking Edit button.
+Just after installing WP Create Multiple Posts & Pages plugin, Go to Main Menu -> Multiple Posts.
 
 Insert you posts / pages title in each line and set type - status - category and author. Click to create a blast posts.
 
@@ -60,11 +55,18 @@ Insert you posts / pages title in each line and set type - status - category and
 
 ![Posts Creation Panel.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-1.png)
 
-### 2. After Posts Created Screen.
+### 2. Before Posts Created Screen.
 
-![After Posts Created Screen.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-2.png)
+![Before Posts Created Screen.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-2.png)
+
+### 3. After Posts Created Screen.
+
+![After Posts Created Screen.](https://ps.w.org/wp-create-multiple-posts-pages/assets/screenshot-3.png)
 
 ## Changelog
+
+### 2.0.2
+- Checked for latest wp version 6.8
 
 ### 2.0.1
 - Minor changes in codebase only.
