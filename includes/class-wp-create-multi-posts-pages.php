@@ -79,8 +79,8 @@ class Wp_Create_Multi_Posts_Pages {
 	 * Include the following files that make up the plugin:
 	 *
 	 * - Wp_Create_Multi_Posts_Pages_Loader. Orchestrates the hooks of the plugin.
-	 * - Wp_Create_Multi_Posts_Pages_i18n. Defines internationalization functionality.
-	 * - Wp_Create_Multi_Posts_Pages_Admin. Defines all hooks for the admin area.
+	 * - Wp_Create_Multi_Posts_Pages_i18n.   Defines internationalization functionality.
+	 * - Wp_Create_Multi_Posts_Pages_Admin.  Defines all hooks for the admin area.
 	 * - Wp_Create_Multi_Posts_Pages_Public. Defines all hooks for the public side of the site.
 	 *
 	 * Create an instance of the loader which will be used to register the hooks

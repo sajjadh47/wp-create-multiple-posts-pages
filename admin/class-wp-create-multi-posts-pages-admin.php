@@ -40,7 +40,7 @@ class Wp_Create_Multi_Posts_Pages_Admin {
 	 * @since     2.0.0
 	 * @access    public
 	 * @param     string $plugin_name The name of this plugin.
-	 * @param     string $version The version of this plugin.
+	 * @param     string $version     The version of this plugin.
 	 */
 	public function __construct( $plugin_name, $version ) {
 		$this->plugin_name = $plugin_name;
@@ -84,7 +84,7 @@ class Wp_Create_Multi_Posts_Pages_Admin {
 	 * @access    public
 	 *
 	 * @param     array $links The existing array of plugin action links.
-	 * @return    array The updated array of plugin action links, including the settings link.
+	 * @return    array $links The updated array of plugin action links, including the settings link.
 	 */
 	public function add_plugin_action_links( $links ) {
 		$links[] = sprintf( '<a href="%s">%s</a>', admin_url( 'admin.php?page=wp-create-multiple-posts-pages' ), __( 'Settings', 'wp-create-multiple-posts-pages' ) );
