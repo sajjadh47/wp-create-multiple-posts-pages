@@ -59,12 +59,7 @@ class Wp_Create_Multi_Posts_Pages {
 	 * @access    public
 	 */
 	public function __construct() {
-		if ( defined( 'WP_CREATE_MULTI_POSTS_PAGES_VERSION' ) ) {
-			$this->version = WP_CREATE_MULTI_POSTS_PAGES_VERSION;
-		} else {
-			$this->version = '1.0.0';
-		}
-
+		$this->version     = defined( 'WP_CREATE_MULTI_POSTS_PAGES_VERSION' ) ? WP_CREATE_MULTI_POSTS_PAGES_VERSION : '1.0.0';
 		$this->plugin_name = 'wp-create-multiple-posts-pages';
 
 		$this->load_dependencies();

@@ -82,7 +82,6 @@ class Wp_Create_Multi_Posts_Pages_Admin {
 	 *
 	 * @since     2.0.0
 	 * @access    public
-	 *
 	 * @param     array $links The existing array of plugin action links.
 	 * @return    array $links The updated array of plugin action links, including the settings link.
 	 */
