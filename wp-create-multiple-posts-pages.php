@@ -7,19 +7,21 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @package        Wp_Create_Multi_Posts_Pages
- * @author         Sajjad Hossain Sagor <sagorh672@gmail.com>
+ * @package           Wp_Create_Multi_Posts_Pages
+ * @author            Sajjad Hossain Sagor <sagorh672@gmail.com>
  *
- * Plugin Name:    WP Create Multiple Posts & Pages
- * Plugin URI:     https://wordpress.org/plugins/wp-create-multiple-posts-pages/
- * Description:    Create Multiple WordPress Posts & Pages At Once With a Single Click.
- * Version:        2.0.2
- * Author:         Sajjad Hossain Sagor
- * Author URI:     https://sajjadhsagor.com/
- * License:        GPL-2.0+
- * License URI:    http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:    wp-create-multiple-posts-pages
- * Domain Path:    /languages
+ * Plugin Name:       WP Create Multiple Posts & Pages
+ * Plugin URI:        https://wordpress.org/plugins/wp-create-multiple-posts-pages/
+ * Description:       Create Multiple WordPress Posts & Pages At Once With a Single Click.
+ * Version:           2.0.2
+ * Requires at least: 6.5
+ * Requires PHP:      8.0
+ * Author:            Sajjad Hossain Sagor
+ * Author URI:        https://sajjadhsagor.com/
+ * License:           GPL-2.0+
+ * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain:       wp-create-multiple-posts-pages
+ * Domain Path:       /languages
  */
 
 // If this file is called directly, abort.

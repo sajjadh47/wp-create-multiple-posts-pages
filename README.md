@@ -1,7 +1,7 @@
 # WP Create Multiple Posts & Pages
 
 **Tags:** post, create-post, edit-post, multiple-post, page, edit-page, multiple-page, create-page \
-**Tested up to:** 6.7 \
+**Tested up to:** 6.8 \
 **Requires PHP:** 8.0
 
 Easily Create Multiple Wordpress Posts & Pages At Once With a Single Click.
