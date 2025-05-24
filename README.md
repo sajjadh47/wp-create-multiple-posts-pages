@@ -1,5 +1,7 @@
 # WP Create Multiple Posts & Pages
 
+[![Plugin Banner](https://ps.w.org/wp-create-multiple-posts-pages/assets/banner-772x250.png)](https://wordpress.org/plugins/wp-create-multiple-posts-pages/)
+
 **Tags:** post, create-post, edit-post, multiple-post, page, edit-page, multiple-page, create-page \
 **Tested up to:** 6.8 \
 **Requires PHP:** 8.0
