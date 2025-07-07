@@ -21,9 +21,6 @@ This plugin adds feature to create multiple posts / pages at once with empty con
 - Assign Categories: Apply categories to posts effortlessly.
 - Custom Post Types (CPT) Support: Compatible with custom post types.
 
-**Interested in contributing to WP Create Multiple Posts & Pages?**
-Contact me sagorh672(at)gmail.com
-
 ## Installation
 
 To add a WordPress Plugin using the built-in plugin installer:
