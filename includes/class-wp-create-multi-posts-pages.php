@@ -11,8 +11,7 @@
 /**
  * The core plugin class.
  *
- * This is used to define internationalization, admin-specific hooks, and
- * public-facing hooks.
+ * This is used to define admin-specific hooks and public-facing hooks.
  *
  * Also maintains the unique identifier of this plugin as well as the current
  * version of the plugin.
@@ -52,7 +51,7 @@ class Wp_Create_Multi_Posts_Pages {
 	 * Define the core functionality of the plugin.
 	 *
 	 * Set the plugin name and the plugin version that can be used throughout the plugin.
-	 * Load the dependencies, define the locale, and set the hooks for the admin area and
+	 * Load the dependencies, set the hooks for the admin area and
 	 * the public-facing side of the site.
 	 *
 	 * @since     2.0.0
@@ -63,7 +62,6 @@ class Wp_Create_Multi_Posts_Pages {
 		$this->plugin_name = 'wp-create-multiple-posts-pages';
 
 		$this->load_dependencies();
-		$this->set_locale();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
 	}
@@ -74,7 +72,6 @@ class Wp_Create_Multi_Posts_Pages {
 	 * Include the following files that make up the plugin:
 	 *
 	 * - Wp_Create_Multi_Posts_Pages_Loader. Orchestrates the hooks of the plugin.
-	 * - Wp_Create_Multi_Posts_Pages_i18n.   Defines internationalization functionality.
 	 * - Wp_Create_Multi_Posts_Pages_Admin.  Defines all hooks for the admin area.
 	 * - Wp_Create_Multi_Posts_Pages_Public. Defines all hooks for the public side of the site.
 	 *
@@ -92,12 +89,6 @@ class Wp_Create_Multi_Posts_Pages {
 		require_once WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_PATH . 'includes/class-wp-create-multi-posts-pages-loader.php';
 
 		/**
-		 * The class responsible for defining internationalization functionality
-		 * of the plugin.
-		 */
-		require_once WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_PATH . 'includes/class-wp-create-multi-posts-pages-i18n.php';
-
-		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
 		require_once WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_PATH . 'admin/class-wp-create-multi-posts-pages-admin.php';
@@ -109,21 +100,6 @@ class Wp_Create_Multi_Posts_Pages {
 		require_once WP_CREATE_MULTI_POSTS_PAGES_PLUGIN_PATH . 'public/class-wp-create-multi-posts-pages-public.php';
 
 		$this->loader = new Wp_Create_Multi_Posts_Pages_Loader();
-	}
-
-	/**
-	 * Define the locale for this plugin for internationalization.
-	 *
-	 * Uses the Wp_Create_Multi_Posts_Pages_i18n class in order to set the domain and to register the hook
-	 * with WordPress.
-	 *
-	 * @since     2.0.0
-	 * @access    private
-	 */
-	private function set_locale() {
-		$plugin_i18n = new Wp_Create_Multi_Posts_Pages_i18n();
-
-		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
 	}
 
 	/**
@@ -166,8 +142,7 @@ class Wp_Create_Multi_Posts_Pages {
 	}
 
 	/**
-	 * The name of the plugin used to uniquely identify it within the context of
-	 * WordPress and to define internationalization functionality.
+	 * The name of the plugin used to uniquely identify it within the context of WordPress.
 	 *
 	 * @since     2.0.0
 	 * @access    public
