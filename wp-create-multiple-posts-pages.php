@@ -14,7 +14,7 @@
  * Plugin URI:        https://wordpress.org/plugins/wp-create-multiple-posts-pages/
  * Description:       Create Multiple WordPress Posts & Pages At Once With a Single Click.
  * Version:           2.0.2
- * Requires at least: 6.5
+ * Requires at least: 5.6
  * Requires PHP:      8.0
  * Author:            Sajjad Hossain Sagor
  * Author URI:        https://sajjadhsagor.com/
